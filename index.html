@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Food — Delicious Food, Delivered Fast</title>
+    <meta
+      name="description"
+      content="Tasty Food delivers delicious meals from the best restaurants straight to your doorstep. Order now and enjoy hot, fresh food in minutes."
+    />
+
+    <!-- Google Fonts: Bowlby One + DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <header>
+      <nav class="navbar" id="navbar">
+        <div class="container">
+          <a href="#home" class="nav-logo">
+            🍜 Tasty<span>Food</span>
+          </a>
+
+          <div class="nav-menu" id="navMenu">
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#best-sellers">Menu</a></li>
+              <li><a href="#best-restaurants">Restaurants</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+              <a href="#best-sellers" class="btn-primary btn-small">Order Now</a>
+            </div>
+          </div>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80"
+          alt="Beautifully plated gourmet food spread on a rustic table"
+        />
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="label-text hero-label">🔥 #1 Food Delivery App</span>
+          <h1 class="display-text">
+            Crave It.<br />
+            Tap It.<br />
+            Devour It.
+          </h1>
+          <p>
+            From sizzling street-side tikkas to wood-fired artisan pizzas — Tasty Food
+            brings the city's finest kitchens right to your door in under 30 minutes.
+          </p>
+          <div class="hero-actions">
+            <a href="#best-sellers" class="btn-primary">Explore the Menu</a>
+            <a href="#how-it-works" class="btn-outline" style="color: var(--color-on-primary); border-color: rgba(252,243,220,0.3);">
+              How It Works
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="hero-stat-value">500+</span>
+              <span class="hero-stat-label">Restaurants</span>
+            </div>
+            <div>
+              <span class="hero-stat-value">28 min</span>
+              <span class="hero-stat-label">Avg. Delivery</span>
+            </div>
+            <div>
+              <span class="hero-stat-value">2M+</span>
+              <span class="hero-stat-label">Orders Served</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS ==================== -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="label-text">Simple &amp; Fast</span>
+          <h2>How Tasty Food Works</h2>
+          <p>Three taps between you and the most incredible meal of your day.</p>
+        </div>
+
+        <div class="how-it-works-grid">
+          <div class="step-card animate-in">
+            <div class="step-icon">📱</div>
+            <span class="step-number">01</span>
+            <h3>Browse &amp; Pick</h3>
+            <p>
+              Explore hundreds of restaurants and curated menus. Filter by
+              cuisine, rating, or delivery time to find exactly what you crave.
+            </p>
+          </div>
+
+          <div class="step-card animate-in">
+            <div class="step-icon">🛒</div>
+            <span class="step-number">02</span>
+            <h3>Order &amp; Pay</h3>
+            <p>
+              Customize your order, add extras, and pay securely with UPI,
+              cards, or wallets. No hidden fees, ever.
+            </p>
+          </div>
+
+          <div class="step-card animate-in">
+            <div class="step-icon">🍽️</div>
+            <span class="step-number">03</span>
+            <h3>Track &amp; Enjoy</h3>
+            <p>
+              Watch your meal journey from kitchen to doorstep in real-time.
+              Hot, fresh, and ready to devour.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BEST SELLERS ==================== -->
+    <section id="best-sellers" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="label-text">Most Ordered</span>
+          <h2>Best Selling Dishes</h2>
+          <p>
+            The crowd favorites — these dishes are ordered thousands of times
+            every single day.
+          </p>
+        </div>
+
+        <div class="food-grid">
+          <!-- Food Card 1: Biryani -->
+          <div class="food-card animate-in">
+            <div class="food-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80"
+                alt="Aromatic Hyderabadi chicken biryani served in a copper handi with raita"
+                loading="lazy"
+              />
+              <span class="food-card-badge">Bestseller</span>
+            </div>
+            <div class="food-card-body">
+              <h3>Hyderabadi Chicken Biryani</h3>
+              <p class="food-card-meta">
+                Slow-cooked basmati rice layered with tender chicken and 18
+                aromatic spices. Served with raita.
+              </p>
+              <div class="food-card-footer">
+                <span class="food-card-price">₹299</span>
+                <span class="food-card-rating">
+                  <span class="star">★</span> 4.9
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Food Card 2: Pizza -->
+          <div class="food-card animate-in">
+            <div class="food-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+                alt="Freshly baked farmhouse pizza with vegetables and melted mozzarella cheese"
+                loading="lazy"
+              />
+              <span class="food-card-badge">#2 Pick</span>
+            </div>
+            <div class="food-card-body">
+              <h3>Farmhouse Pizza (Large)</h3>
+              <p class="food-card-meta">
+                Hand-tossed crust loaded with onions, capsicum, mushrooms, and
+                a generous mozzarella blanket.
+              </p>
+              <div class="food-card-footer">
+                <span class="food-card-price">₹449</span>
+                <span class="food-card-rating">
+                  <span class="star">★</span> 4.8
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Food Card 3: Tacos -->
+          <div class="food-card animate-in">
+            <div class="food-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80"
+                alt="Crunchy chicken tacos with fresh lettuce, salsa and chipotle mayo"
+                loading="lazy"
+              />
+            </div>
+            <div class="food-card-body">
+              <h3>Crunchy Chicken Tacos (3 pcs)</h3>
+              <p class="food-card-meta">
+                Crispy corn tortillas stuffed with seasoned chicken, jalapeños,
+                cheddar, and chipotle mayo.
+              </p>
+              <div class="food-card-footer">
+                <span class="food-card-price">₹349</span>
+                <span class="food-card-rating">
+                  <span class="star">★</span> 4.7
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Food Card 4: Brownie -->
+          <div class="food-card animate-in">
+            <div class="food-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                alt="Warm Belgian chocolate brownie served with vanilla ice cream and chocolate sauce"
+                loading="lazy"
+              />
+            </div>
+            <div class="food-card-body">
+              <h3>Belgian Chocolate Brownie</h3>
+              <p class="food-card-meta">
+                Gooey 72% dark cocoa brownie paired with vanilla bean ice cream
+                and hot fudge drizzle.
+              </p>
+              <div class="food-card-footer">
+                <span class="food-card-price">₹199</span>
+                <span class="food-card-rating">
+                  <span class="star">★</span> 4.9
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== STATS SECTION ==================== -->
+    <section class="stats-section" id="about">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item animate-in">
+            <span class="stat-value">25+</span>
+            <span class="stat-label">Cities Served</span>
+          </div>
+          <div class="stat-item animate-in">
+            <span class="stat-value">500+</span>
+            <span class="stat-label">Restaurant Partners</span>
+          </div>
+          <div class="stat-item animate-in">
+            <span class="stat-value">2M+</span>
+            <span class="stat-label">Orders Delivered</span>
+          </div>
+          <div class="stat-item animate-in">
+            <span class="stat-value">800K+</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BEST RESTAURANTS ==================== -->
+    <section id="best-restaurants" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="label-text">Top Rated</span>
+          <h2>Best Restaurants</h2>
+          <p>
+            Handpicked gems that consistently deliver outstanding food and
+            service, rated by real customers.
+          </p>
+        </div>
+
+        <div class="restaurant-grid">
+          <!-- Restaurant Card 1 -->
+          <div class="restaurant-card animate-in">
+            <div class="restaurant-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=500&q=80"
+                alt="Authentic North Indian butter chicken curry with naan bread"
+                loading="lazy"
+              />
+            </div>
+            <div class="restaurant-card-body">
+              <h3>The Royal Kitchen</h3>
+              <p>
+                Award-winning North Indian cuisine — famous for creamy butter
+                chicken, tandoori platters, and aromatic biryanis crafted over
+                15 years.
+              </p>
+              <div class="restaurant-tags">
+                <span class="restaurant-tag">North Indian</span>
+                <span class="restaurant-tag">Mughlai</span>
+                <span class="restaurant-tag">Tandoor</span>
+              </div>
+              <div class="restaurant-meta">
+                <span><span class="star">★</span> 4.9</span>
+                <span>🕐 25–30 min</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Restaurant Card 2 -->
+          <div class="restaurant-card animate-in">
+            <div class="restaurant-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80"
+                alt="Classic Italian pizza with fresh toppings and melted cheese"
+                loading="lazy"
+              />
+            </div>
+            <div class="restaurant-card-body">
+              <h3>Pizza Paradise</h3>
+              <p>
+                Legendary wood-fired pizzas with the freshest ingredients and
+                authentic Italian recipes. From classic Margherita to exotic BBQ
+                Chicken.
+              </p>
+              <div class="restaurant-tags">
+                <span class="restaurant-tag">Italian</span>
+                <span class="restaurant-tag">Pizza</span>
+                <span class="restaurant-tag">Pasta</span>
+              </div>
+              <div class="restaurant-meta">
+                <span><span class="star">★</span> 4.8</span>
+                <span>🕐 20–25 min</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Restaurant Card 3 -->
+          <div class="restaurant-card animate-in">
+            <div class="restaurant-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80"
+                alt="Asian stir-fry noodles with fresh vegetables in a wok"
+                loading="lazy"
+              />
+            </div>
+            <div class="restaurant-card-body">
+              <h3>Dragon Wok</h3>
+              <p>
+                Authentic Chinese and Asian fusion — hand-pulled noodles, crispy
+                spring rolls, and signature Szechuan preparations with secret
+                sauces.
+              </p>
+              <div class="restaurant-tags">
+                <span class="restaurant-tag">Chinese</span>
+                <span class="restaurant-tag">Asian</span>
+                <span class="restaurant-tag">Thai</span>
+              </div>
+              <div class="restaurant-meta">
+                <span><span class="star">★</span> 4.7</span>
+                <span>🕐 30–35 min</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Restaurant Card 4 -->
+          <div class="restaurant-card animate-in">
+            <div class="restaurant-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80"
+                alt="Gourmet burger with juicy beef patty, fresh lettuce and melted cheese"
+                loading="lazy"
+              />
+            </div>
+            <div class="restaurant-card-body">
+              <h3>Burger Barn</h3>
+              <p>
+                The ultimate burger destination — flame-grilled gourmet burgers,
+                loaded fries, creamy shakes, and crispy wings. 100% premium beef
+                perfection.
+              </p>
+              <div class="restaurant-tags">
+                <span class="restaurant-tag">American</span>
+                <span class="restaurant-tag">Burgers</span>
+                <span class="restaurant-tag">Shakes</span>
+              </div>
+              <div class="restaurant-meta">
+                <span><span class="star">★</span> 4.8</span>
+                <span>🕐 15–20 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="label-text">Real Reviews</span>
+          <h2>What Our Foodies Say</h2>
+          <p>
+            Don't take our word for it — here's what real customers have to say
+            about Tasty Food.
+          </p>
+        </div>
+
+        <div class="testimonial-grid">
+          <div class="testimonial-card animate-in">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">
+              "The biryani from Royal Kitchen arrived piping hot in exactly 26
+              minutes. The taste was absolutely authentic — better than most
+              dine-in restaurants. Tasty Food is my go-to now!"
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">PR</div>
+              <div>
+                <div class="testimonial-name">Priya Rajesh</div>
+                <div class="testimonial-role">Hyderabad · 47 orders</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card animate-in">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">
+              "I order almost every weekend for family dinners. The variety is
+              insane and I love the real-time tracking. It's like watching a
+              cooking show that ends with your doorbell ringing!"
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AK</div>
+              <div>
+                <div class="testimonial-name">Arjun Kapoor</div>
+                <div class="testimonial-role">Mumbai · 112 orders</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card animate-in">
+            <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+            <p class="testimonial-text">
+              "The chocolate brownie is to die for! Ordering desserts online
+              always felt risky, but Tasty Food's packaging kept everything
+              perfect. Absolutely recommend to anyone with a sweet tooth."
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SM</div>
+              <div>
+                <div class="testimonial-name">Sneha Menon</div>
+                <div class="testimonial-role">Bangalore · 63 orders</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA BANNER ==================== -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Hungry? Your Next Meal Is Just a Tap Away.</h2>
+        <p>
+          Join 800,000+ happy customers and experience the fastest food delivery
+          in your city.
+        </p>
+        <a href="#best-sellers" class="btn-white">Start Ordering Now</a>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info">
+            <span class="label-text">Get in Touch</span>
+            <h2>We'd Love to Hear From You</h2>
+            <p>
+              Have a question, feedback, or need help with your order? Our
+              support team is available 24/7 and will get back to you within a
+              few hours.
+            </p>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📍</div>
+              <div class="contact-detail-text">
+                <strong>Address</strong>
+                <span>Tower B, 5th Floor, Cyber Towers, HITEC City, Hyderabad, Telangana 500081</span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📞</div>
+              <div class="contact-detail-text">
+                <strong>Phone</strong>
+                <span>+91-9876543210</span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">✉️</div>
+              <div class="contact-detail-text">
+                <strong>Email</strong>
+                <span>support@tastyfood.com</span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">🕐</div>
+              <div class="contact-detail-text">
+                <strong>Support Hours</strong>
+                <span>24/7, 365 days a year</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="user-name">Full Name</label>
+                <input
+                  type="text"
+                  id="user-name"
+                  name="user-name"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="mobile-number">Phone</label>
+                <input
+                  type="tel"
+                  id="mobile-number"
+                  name="mobile-number"
+                  placeholder="+91 98765 43210"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email-id">Email Address</label>
+              <input
+                type="email"
+                id="email-id"
+                name="email-id"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="order">Order Issue</option>
+                <option value="feedback">Feedback</option>
+                <option value="partnership">Restaurant Partnership</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell us how we can help..."
+                rows="5"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%;">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="nav-logo">
+              🍜 Tasty<span>Food</span>
+            </a>
+            <p>
+              Delivering happiness, one meal at a time. From the best kitchens
+              in your city, straight to your table.
+            </p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com" target="_blank" title="Instagram" aria-label="Follow us on Instagram">📷</a>
+              <a href="https://www.twitter.com" target="_blank" title="Twitter" aria-label="Follow us on Twitter">🐦</a>
+              <a href="https://www.youtube.com" target="_blank" title="YouTube" aria-label="Subscribe on YouTube">▶️</a>
+              <a href="https://www.linkedin.com" target="_blank" title="LinkedIn" aria-label="Connect on LinkedIn">💼</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#about">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Press Kit</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Support</h4>
+            <a href="#contact">Contact Us</a>
+            <a href="#">Help Center</a>
+            <a href="#">FAQs</a>
+            <a href="#">Report an Issue</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Tasty Food Pvt. Ltd. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==================== MOBILE NAV TOGGLE SCRIPT ==================== -->
+    <script>
+      const navToggle = document.getElementById('navToggle');
+      const navMenu = document.getElementById('navMenu');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+
+      // Close menu when a nav link is clicked
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('active');
+        });
+      });
+
+      // Intersection Observer for scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -60px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = 'running';
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.animate-in').forEach(el => {
+        el.style.animationPlayState = 'paused';
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>
